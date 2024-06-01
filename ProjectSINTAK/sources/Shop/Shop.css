@@ -1,0 +1,174 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: block;
+}
+
+.container .col {
+  display: flex;
+  justify-content: center;
+}
+
+.container .col .nav {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+ul {
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  justify-content: center;
+  position: fixed;
+}
+
+ul a {
+  margin-top: 10px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  list-style: none;
+  padding: 12px 16px;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+ul a:hover {
+  background-color: #ffbd59;
+  color: #fff;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
+}
+
+ul .shop {
+  background-color: #ffbd59;
+  color: #fff;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
+}
+
+.container .row .border {
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.2));
+}
+
+.container .row .border .button button {
+  padding: 10px 20px;
+  border: 1px solid #ffbd59;
+  background-color: #ffbd59;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.container .row .border .button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+section .kartu {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 10px 20px;
+  max-width: 250px;
+  margin: 2rem;
+  background-color: white;
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
+}
+
+section .kartu .gambar-kartu {
+  display: flex;
+  justify-content: center;
+}
+
+section .kartu .gambar-kartu img {
+  width: 200px;
+  border-radius: 13px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+section h2 {
+  text-align: center;
+  background-color: #ffbd59;
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
+
+section .kartu .teks h5 {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 3rem;
+}
+
+/* footer Start */
+.footer {
+  display: block;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer .row .logo-prestige {
+  justify-content: center;
+  display: flex;
+}
+
+.footer .row .logo-prestige img {
+  width: 100px;
+}
+
+.footer .row .quick-link {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .row .quick-link .teks h4 {
+  color: #ffbd59;
+}
+
+.footer .row .quick-link .teks ol {
+  padding: 0;
+}
+
+.footer .row .quick-link .teks ol a {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.footer .row .alamat h4 {
+  color: #ffbd59;
+}
+
+.footer .row .alamat p {
+  font-size: 10px;
+}
+
+.footer .copyright {
+  justify-content: center;
+  display: flex;
+  font-size: 12px;
+}
+/* footer end */

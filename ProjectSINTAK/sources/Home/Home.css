@@ -1,0 +1,142 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: block;
+}
+
+.container .col {
+  display: flex;
+  justify-content: center;
+}
+
+.container .col .nav {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+ul {
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  justify-content: center;
+  position: fixed;
+}
+
+ul a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  list-style: none;
+  padding: 12px 16px;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+  font-size: 16px;
+}
+
+ul a {
+  color: #000000;
+  text-decoration: none;
+}
+ul a:hover {
+  background-color: #ffbd59;
+  color: #fff;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
+}
+ul .home {
+  background-color: #ffbd59;
+  color: #fff;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
+}
+
+.container .carousel {
+  top: 50;
+  transform: translateY(10%);
+}
+
+.container .carousel .carousel-inner .carousel-item video {
+  border-radius: 20px;
+}
+
+.container .row .col .card {
+  max-width: 300px;
+  max-height: 700px;
+}
+
+.container .row .col .card .card-body .card-text {
+  text-align: left;
+}
+
+.container .ads p {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* footer Start */
+.footer {
+  display: block;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.footer .row .logo-prestige {
+  justify-content: center;
+  display: flex;
+}
+.footer .row .logo-prestige img {
+  width: 100px;
+}
+
+.footer .row .quick-link {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .row .quick-link .teks h4,
+.container .title h2 {
+  color: #ffbd59;
+}
+
+.footer .row .quick-link .teks ol {
+  padding: 0;
+}
+.footer .row .quick-link .teks ol a {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+}
+.footer .row .alamat h4 {
+  color: #ffbd59;
+}
+
+.footer .row .alamat p {
+  font-size: 10px;
+}
+
+.footer .copyright {
+  justify-content: center;
+  display: flex;
+  font-size: 12px;
+}
+/* footer end */
